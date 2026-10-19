@@ -20,7 +20,7 @@
 使用 Skills CLI 安装（需要 Node.js 和 npm/npx）：
 
 ```sh
-npx skills add axetroy/mhxy
+npx skills add axetroy/mhxy-pedia --skill mhxy-pedia
 ```
 
 安装后可以这样提问：
@@ -32,7 +32,7 @@ npx skills add axetroy/mhxy
 卸载命令：
 
 ```sh
-npx skills remove mhxy-encyclopedia
+npx skills remove mhxy-pedia
 ```
 
 ## 项目规划
@@ -43,7 +43,7 @@ npx skills remove mhxy-encyclopedia
 
 ```text
 .
-├── .agents/skills/mhxy-encyclopedia/
+├── .agents/skills/mhxy-pedia/
 │   ├── SKILL.md
 │   └── references/
 │       ├── gameplay.md
